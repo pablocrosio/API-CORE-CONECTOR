@@ -1,1 +1,1 @@
-DOTNET_STARTUP_PROJECT=CTSConnector/CTSConnectorAPI.csproj
+DOTNET_STARTUP_PROJECT=CTSConnectorAPI/CTSConnectorAPI.csproj
