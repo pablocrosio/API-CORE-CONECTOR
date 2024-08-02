@@ -1,0 +1,13 @@
+{
+    "Variables": [
+		{
+            "Name": "TZ",
+            "Value": "America/Argentina/Buenos_Aires"
+        },
+		{
+            "Name": "COMPlus_gcServer",
+            "Value": "0"
+        }
+    ],
+    "Redeploy": false
+}

@@ -1,0 +1,63 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51663/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "outServiceQueueName": "WRH_RESP_MF",
+        "sessionTimeout": "12",
+        "inServiceQueueName": "WRH_REQ_MF",
+        "maxPoolSize": "512",
+        "connectionString": "Provider=ASEOLEDB.1;Password=*Paspa2;Persist Security Info=True;User ID=DTSDESA;Data Source=bhhdasbue006:5100;Initial Catalog=cobis;Language=us_english",
+        "pooled": "1",
+        "applicationId": "46372",
+        "password": "",
+        "outSessionQueueName": "SESSION_RESP_MF",
+        "ports": "1926",
+        "hostNames": "10.40.46.15,10.40.46.30",
+        "outMessageExpiry": "600",
+        "waitInterval": "60000",
+        "channelName": "CLIENTES_MF",
+        "userId": "DAUSRDES",
+        "queueManagerName": "QM.COBISTS_PRUEBAS",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "inSessionQueueName": "SESSION_REQ_MF",
+        "poolTimeoutInMin": "10"
+      }
+    },
+    "CTSConnectorAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "outServiceQueueName": "WRH_RESP_MF",
+        "sessionTimeout": "12",
+        "inServiceQueueName": "WRH_REQ_MF",
+        "maxPoolSize": "512",
+        "connectionString": "Provider=ASEOLEDB.1;Password=*Paspa2;Persist Security Info=True;User ID=DTSDESA;Data Source=bhhdasbue006:5100;Initial Catalog=cobis;Language=us_english",
+        "pooled": "1",
+        "applicationId": "46372",
+        "password": "",
+        "outSessionQueueName": "SESSION_RESP_MF",
+        "ports": "1926",
+        "hostNames": "10.40.46.15,10.40.46.30",
+        "outMessageExpiry": "600",
+        "waitInterval": "80000",
+        "channelName": "CLIENTES_MF",
+        "userId": "DAUSRDES",
+        "queueManagerName": "QM.COBISTS_PRUEBAS",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "inSessionQueueName": "SESSION_REQ_MF",
+        "poolTimeoutInMin": "10"
+      },
+      "applicationUrl": "http://localhost:51664/"
+    }
+  }
+}

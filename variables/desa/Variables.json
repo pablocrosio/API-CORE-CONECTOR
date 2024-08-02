@@ -1,0 +1,85 @@
+{
+    "Variables": [
+		{
+            "Name": "ASPNETCORE_ENVIRONMENT",
+            "Value": "Development"
+        },
+		{
+            "Name": "hostNames",
+            "Value": "10.40.46.15,10.40.46.30"
+        },
+		{
+            "Name": "ports",
+            "Value": "1926"
+        },
+		{
+            "Name": "channelName",
+            "Value": "CLIENTES_MF"
+        },
+		{
+            "Name": "queueManagerName",
+            "Value": "QM.COBISTS_PRUEBAS"
+        },
+		{
+            "Name": "inSessionQueueName",
+            "Value": "SESSION_REQ_MF"
+        },
+		{
+            "Name": "outSessionQueueName",
+            "Value": "SESSION_RESP_MF"
+        },
+		{
+            "Name": "inServiceQueueName",
+            "Value": "WRH_REQ_MF"
+        },
+		{
+            "Name": "outServiceQueueName",
+            "Value": "WRH_RESP_MF"
+        },
+		{
+            "Name": "waitInterval",
+            "Value": "80000"
+        },
+		{
+            "Name": "outMessageExpiry",
+            "Value": "600"
+        },
+		{
+            "Name": "pooled",
+            "Value": "1"
+        },
+		{
+            "Name": "maxPoolSize",
+            "Value": "512"
+        },
+		{
+            "Name": "poolTimeoutInMin",
+            "Value": "10"
+        },
+		{
+            "Name": "applicationId",
+            "Value": "46372"
+        },
+		{
+            "Name": "userId",
+            "Value": "DAUSRDES"
+        },
+		{
+            "Name": "password",
+            "Value": "null"
+        },
+		{
+            "Name": "sessionTimeout",
+            "Value": "12"
+        },	
+		{
+            "Name": "TZ",
+            "Value": "America/Argentina/Buenos_Aires"
+        },
+		{
+            "Name": "COMPlus_gcServer",
+            "Value": "0"
+        }
+    ],
+    "Redeploy": false
+}
